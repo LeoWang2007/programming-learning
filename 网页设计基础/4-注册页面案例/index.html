@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册页面</title>
+</head>
+
+<body>
+    <h4>青春不常在，抓紧谈恋爱</h4>
+    <table width="500">
+        <tr>
+            <td>
+                性别
+            </td>
+            <td>
+                <input type="radio" name="gender" value="man" id="man">
+                <label for="man"><img src="images/man.jpg" alt="男">男</label>
+                <input type="radio" name="gender" value="woman" id="woman">
+                <label for="woman"><img src="images/women.jpg" alt="女">女</label>
+            </td>
+        </tr>
+        <tr>
+            <td>生日</td>
+            <td>
+                <select name="year">
+                    <option value="default">--请选择年--</option>
+                    <option value="2007">2007</option>
+                    <option value="2006">2006</option>
+                    <option value="2005">2005</option>
+                </select>
+                <select name="month">
+                    <option value="default">--请选择月--</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <select name="day">
+                    <option value="default">--请选择日--</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>所在地区</td>
+            <td><input type="text" value="南京"></td>
+        </tr>
+        <tr>
+            <td>
+                婚姻状况
+            </td>
+            <td>
+                <input type="radio" name="marry" checked="checked" value="unmarried" id="unmarried">
+                <label for="unmarried">未婚</label>
+                <input type="radio" name="marry" value="married" id="married">
+                <label for="married">已婚</label>
+                <input type="radio" name="marry" value="divorce" id="divorce">
+                <label for="divorce">离婚</label>
+            </td>
+        </tr>
+        <tr>
+            <td>学历</td>
+            <td><input type="text" value="幼儿园"></td>
+        </tr>
+        <tr>
+            <td>
+                喜欢的类型
+            </td>
+            <td>
+                <input type="checkbox" id="A" value="A"><label for="A">妩媚的</label>
+                <input type="checkbox" id="B" value="B"><label for="B">可爱的</label>
+                <input type="checkbox" id="C" value="C"><label for="C">小鲜肉</label>
+                <input type="checkbox" id="D" value="D"><label for="D">老腊肉</label>
+                <input type="checkbox" id="E" checked="checked" value="E"><label for="E">都喜欢</label>
+            </td>
+        </tr>
+        <tr>
+            <td>自我介绍</td>
+            <td>
+                <textarea name="introduction">自我介绍</textarea>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="免费注册"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="checkbox" id="agree" checked="checked" value="agree">
+                <label for="agree">我同意注册条款和会员加入标准</label>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <a href="#">我是会员，立即登录</a>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <h5>我承诺</h5>
+                <ul>
+                    <li>年满18岁、单身</li>
+                    <li>抱着严肃的态度</li>
+                    <li>真诚寻找另一半</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
